@@ -8,18 +8,18 @@
             $this->passwd = $passwd;
         }
 
-        public static function setUname($uname) {
+        public  function setUname($uname) {
             $this->uname = $uname;
-        };
-        public static function setPasswd($passwd) {
+        }
+        public  function setPasswd($passwd) {
             $this->passwd = $passwd;
-        };
-        public static function getUname() {
+        }
+        public function getUname() {
             return $this->uname;
-        };
-        public static function getPasswd($) {
-            return $passwd;
-        };
+        }
+        public function getPasswd() {
+            return $this->passwd;
+        }
     }
 
 ?>
